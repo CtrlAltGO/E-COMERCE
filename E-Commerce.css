@@ -148,7 +148,7 @@ header a:hover {
 }
 
 /*Area do Explore*/
-#explore{
+#noticiadestaque{
     background-image: url(https://images.squarespace-cdn.com/content/v1/60fd4dc85d1b740974b1e936/1630765728259-IQBXQ65CJV0ZVZUWOROT/IMG_3505.JPG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,13 +157,13 @@ header a:hover {
     text-align: center;
 }
 
-#explore h1{
+#noticiadestaque h1{
     font-size: 50px;
     color: #a5c926;
     background-color: #000000;
 }
 
-#explore a{
+#noticiadestaque a{
     font-size: 50px;
     font-weight: bold;
     text-decoration: none;
@@ -172,11 +172,11 @@ header a:hover {
     background-color: #000000;
 }
 
-#explore a:hover{
+#noticiadestaque a:hover{
     color: #c9f52b;
 }
 
-#explore p{
+#noticiadestaque p{
     margin-top: -40px;
 }
 

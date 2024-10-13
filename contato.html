@@ -31,6 +31,25 @@
                 <a href="carrinho.html"><img src="https://cdn.prod.website-files.com/5badda2935e11303a89a461e/5baf75c3bf02346640399fec_cart-icon.svg"></a>
             </ul>
           </span>
+          <script>
+            function validar() {
+                var nome = document.getElementById("Nome-de-Contato");
+                if (nome.value == "") {
+                    alert ("Nome não informado");
+                    nome.focus();
+                }
+                var nome = document.getElementById("Email-do-Contato");
+                if (nome.value == "") {
+                    alert ("Email não informado");
+                    nome.focus();
+                }
+                var nome = document.getElementById("Reclamação");
+                if (nome.value == "") {
+                    alert ("Reclamação não informada");
+                    nome.focus();
+                }
+            }
+        </script>
         </header>
         <section id="principal">
             <div class="container">
@@ -43,6 +62,7 @@
                         <p>Horarios de Atendimento: 07:00 as 11:30 e 13:00 as 17:00</p>
                         <p>WhatsApp: (31) 9889-8998</p>
                     </div>
+                <form action="" method="get">
                     <h1>Formulário de contato:</h1>
                     <p>Nome Completo:</p>
                     <input type="text" name="Nome-de-Contato" id="Nome-de-Contato" maxlength="100" placeholder="Digite o seu Nome" required>
@@ -50,7 +70,7 @@
                     <input type="email" name="Email-do-Contato" id="Email-do-Contato" maxlength="150" placeholder="Digite o seu E-mail" required>
                     <p>Nos fale Sobre o Problema:</p>
                     <textarea name="Reclamação" id="Reclamação" maxlength="5000" style="width: 401px; height: 178px;" required placeholder="A sua Reclamação..."></textarea><br>
-                    <input type="submit" value="Enviar" da>
+                    <input type="submit" value="Enviar" onclick="validar()">
                 </form>
                 <div style="float: right; margin-top: -230px; padding-bottom: 230px; margin-right: 246px;">
                     <p>Siga-nos Tambem: </p>
